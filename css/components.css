@@ -1,0 +1,40 @@
+:root {
+  --clr-ds-red: hsl(0, 36%, 70%);
+  --clr-sf-red: hsl(0, 93%, 68%);
+  --clr-dkgr-red: hsl(0, 6%, 24%);
+  --clr-linear-grad1: linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  );
+  --clr-linear-grad2: linear-gradient(
+    135deg,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
+  --font-josefin-300: 300 2.5rem/1 "Josefin Sans", sans-serif;
+  --font-josefin-400: 400 1rem/1.5 "Josefin Sans", sans-serif;
+  --font-josefin-600: 600 2.5rem/1 "Josefin Sans", sans-serif;
+}
+.color-ds-red {
+  color: var(--clr-ds-red);
+}
+.color-sf-red {
+  color: var(--clr-sf-red);
+}
+.color-dkgr-red {
+  color: var(--clr-dkgr-red);
+}
+.font-josefin-300 {
+  font: var(--font-josefin-300);
+  text-transform: uppercase;
+  letter-spacing: 0.625rem;
+}
+.font-josefin-400 {
+  font: var(--font-josefin-400);
+}
+.font-josefin-600 {
+  font: var(--font-josefin-600);
+  text-transform: uppercase;
+  letter-spacing: 0.625rem;
+}

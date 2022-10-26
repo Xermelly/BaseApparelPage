@@ -1,2 +1,66 @@
 @import url(./components.css);
 @import url(./global.css);
+@import url(./form.css);
+
+.container {
+  margin: auto;
+  max-width: 23.4375rem;
+  min-height: 100%;
+  display: grid;
+  text-align: center;
+}
+.logo-img {
+  display: flex;
+  place-self: left;
+  padding: 1.25rem;
+}
+.info-content {
+  padding: 1.875rem;
+  padding-top: 3.75rem;
+}
+.info-content h1 {
+  margin-bottom: 1.25rem;
+}
+.info-content p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 23.5rem) {
+  .container {
+    max-width: 1440px;
+  }
+}
+@media (min-width: 37.5rem) {
+  .content-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 55px 750px;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/bg-pattern-desktop.svg);
+    background-color: var(--clr-linear-grad2);
+    text-align: left;
+  }
+  .logo-img {
+    padding-left: 8rem;
+  }
+  .info-content {
+    padding: 8rem;
+  }
+  .info-content h1 {
+    font-size: 4rem;
+  }
+  .info-content p {
+    max-width: 40ch;
+  }
+  .intro-img {
+    grid-row: span 2;
+  }
+  .intro-img img {
+    min-height: 800px;
+    object-fit: cover;
+    object-position: center;
+  }
+}

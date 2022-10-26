@@ -3,7 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
-img {
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 1rem;
+  background: var(--clr-linear-grad1);
+}
+h1,
+h2,
+h3,
+p,
+a,
+br,
+span,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img,
+picture {
   max-inline-size: 100%;
   block-size: auto;
 }

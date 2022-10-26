@@ -6,12 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Base Apparel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+  <main class="container">
+    <div class="content-container">
+      <img class="logo-img" src="./images/logo.svg" alt="Base Apparel Logo">
+      <picture class="intro-img">
+        <source srcset="./images/hero-desktop.jpg" media="(min-width: 376px)" />
+        <img src="./images/hero-mobile.jpg" alt="Woman">
+      </picture>
+      <section class="info-content">
+        <h1 class="font-josefin-600 color-dkgr-red"><span class="font-josefin-300 color-ds-red">We're</span><br> Coming<br>Soon</h1>
+        <p class="font-josefin-400 color-ds-red">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <form action="./">
+          <input type="email" name="email" id="email" placeholder="Email Addres" required title="Enter a valid email adress">
+          <button id="btn-submit" type="submit" name="send"><img src="./images/icon-arrow.svg" alt=""></button>
+        </form>
+        <span class="invalid-alert">Please provide a valid email</span>
+      </section>
+    </div>
 
+  </main>
 
   <script src="./js/script.js"></script>
 </body>
