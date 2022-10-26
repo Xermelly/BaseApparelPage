@@ -28,7 +28,7 @@
 }
 @media (min-width: 23.5rem) {
   .container {
-    max-width: 1440px;
+    max-width: 90rem;
   }
 }
 @media (min-width: 37.5rem) {
@@ -36,7 +36,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-template-rows: 55px 750px;
+    grid-template-rows: 3.4375rem 46.875rem;
     justify-content: center;
     align-items: center;
     background: url(../images/bg-pattern-desktop.svg);
@@ -59,7 +59,7 @@
     grid-row: span 2;
   }
   .intro-img img {
-    min-height: 800px;
+    min-height: 50rem;
     object-fit: cover;
     object-position: center;
   }

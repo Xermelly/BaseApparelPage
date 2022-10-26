@@ -15,13 +15,13 @@ input[type="email"]::placeholder {
 }
 input[type="email"].invalid:required:invalid {
   background: url(../images/icon-error.svg) no-repeat;
-  background-size: 24px;
+  background-size: 1.5rem;
   background-position: calc(100% - 5rem);
-  outline: 2px solid var(--clr-sf-red);
+  outline: 0.125rem solid var(--clr-sf-red);
 }
 input[type="email"]:focus {
   outline: none;
-  border: 1px solid red;
+  border: 0.0625rem solid red;
 }
 button {
   margin-left: -3.125rem;
@@ -35,7 +35,7 @@ button {
 }
 button:hover {
   background: rgb(248, 191, 191);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.3125rem 0.625rem 0 rgba(0, 0, 0, 0.15);
 }
 .invalid-alert {
   display: none;
@@ -46,6 +46,6 @@ button:hover {
   margin-top: 0.625rem;
   color: var(--clr-sf-red);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
